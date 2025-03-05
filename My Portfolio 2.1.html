@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Mr. Q.B's personal portfolio.">
+    <meta name="author" content="Mr. Q.B">
+    <title>Mr. Q.B's Portfolio</title>
+    <link rel="stylesheet" href="item_custom_styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+
+<body>
+
+    <audio src="Run It.mp3" controls loop id="audioPlayer" title="Now Playing: Run It"></audio>
+
+    <div id="content-wrapper">
+        
+        <header>
+            <h1>Trần Quốc Bảo (AKA Mr. Q.B)'s Portfolio</h1>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Name: Trần Quốc Bảo</p>
+            <p>Age: 18</p>
+            <p>Birthday: December 15, 2007</p>
+            <p>Hobby: Trying things out</p>
+        </section>
+
+        <section id="social">
+            <h2>My social media accounts:</h2>
+            <button>
+                <a href="https://bsky.app/profile/crimsondisk.bsky.social" target="_blank">Bluesky</a>
+            </button>
+        </section>
+
+        <hr>
+
+        <section id="click-counter">
+            <h1>Fun Gimmick</h1>
+            <h2>Click Counter</h2>
+            <table>
+                <tr>
+                    <th>Clicks</th>
+                    <th id="counter">0</th>
+                </tr>
+            </table>
+            <br>
+            <button id="hit">Hit me</button>
+            <button id="reset">Reset</button>
+        </section>
+
+        <hr>
+
+        <section id="favorite-videos">
+            <h2>Favourite Videos</h2>
+            <div class="video-buttons">
+                <button><a href="https://www.youtube.com/embed/MmB9b5njVbA?si=kr4rK7RTWnciTCpl" target="yt_iframe">Minecraft Release Trailer</a></button>
+                <button><a href="https://www.youtube.com/embed/Wv2zj373It4?si=o6KHpsj3zHPEnutv" target="yt_iframe">Dreams Of An Absolution (Music)</a></button>
+                <button><a href="https://www.youtube.com/embed/fnyzHd2PoS0?si=cjnTMr6t7EdWsWwe" target="yt_iframe">Vandalize (Music)</a></button>
+                <button><a href="https://www.youtube.com/embed/IcvILs5ra2g?si=rGqRDJOnfWvVDmxe" target="yt_iframe">Without You (Music)</a></button>
+                <button><a href="https://www.youtube.com/embed/TJreGbVPDx0" target="yt_iframe">Sonic Unleashed Recompiled Release Trailer</a></button>
+            </div>
+            <p><iframe src="" width="90%" height="600" name="yt_iframe" title="YouTube Frame"></iframe></p>
+        </section>
+
+        <hr>
+
+        <section id="extras">
+            <h1>Extras</h1>
+            <form action="https://www.google.com/search" method="get" class="search-bar" autocomplete="off">
+                <input type="text" placeholder="Search the web" name="q">
+                <button type="submit">Submit</button>
+            </form>            
+            <iframe src="https://modrinth.com/mods" frameborder="0" width="100%" height="720" name="Minecraft mods"></iframe>
+        </section>
+
+        <hr>
+
+        <section id="form">
+            <h1>Your opinion</h1>
+            <form autocomplete="off" method="post">
+                <label for="ratings"><h2>How is the web's overall design?</h2></label>
+                <select id="ratings" name="ratings">
+                    <option value="outstanding">Outstanding!</option>
+                    <option value="amazing">Amazing!</option>
+                    <option value="great">Great</option>
+                    <option value="good">Good</option>
+                </select>
+            <button>Submit</button>
+            </form>
+        </section>
+
+    </div>
+
+    <script src="click_script.js"></script>
+
+</body>
+
+</html>

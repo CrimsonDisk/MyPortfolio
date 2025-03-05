@@ -1,0 +1,97 @@
+#audioPlayer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+body {
+    background-image: url('https://i.redd.it/8dgplo599uae1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #1cafe0;
+    font-family: Arial, sans-serif;
+}
+
+#content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #a916ed;
+    font-size: 3rem;
+}
+
+h2, th, td, p, a {
+    color: #1cafe0;
+    font-size: 1.6rem;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    border: 3px solid rgb(47, 255, 175);
+}
+
+th {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #4747ff;
+    color: rgb(255, 247, 0);
+}
+
+button:hover a {
+    color: #00FF00;
+}
+
+.video-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    height: 600px;
+    border-radius: 5px;
+}
+
+* {
+    cursor: url('idle.cur'), auto;
+}
